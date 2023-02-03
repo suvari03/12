@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero {
+    /* background: url('/agac.jpg'); */
+    background-position: top right;
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero_text {
+    color: #ffd4d49a;
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'Seymour One', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+
+header {
+    background-color: #FFD4D4;
+    padding: 8px 16px;
+}
+
+.navbar {
+    display: inline-block;
+    width: -150%;
+    float: right;
+}
+
+.navbar_items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar_item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header_logo {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+.navbar_item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar_item a:hover {
+    color: #AACB73;
+}
+
+.navbar_item a:active {
+    color: #FFFFE8;
+}
+
+.navbar_item_contact a {
+    background-color: #ec9999;
+    padding: 4px 16px;
+    border: 1px solid #FFFFE8;
+    border-radius: 10px;
+}
+
+
+.navbar_item_contact a:hover {
+    background-color: #FFFFE8;
+    color: #ec9999;
+    border: 0, 5px solid #9dff01;
+}
+
+#work {
+    padding: 100px 10px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+#work h2 {
+    color: #AACB73;
+    font-size: 30px;
+
+}
+
+.col-3 {
+    display: inline-block;
+    width: 30%;
+    min-width: 220px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #CDE990;
+}
+
+.icon h3 {
+    color: #f8a0a0;
+    font-size: 26px;
+}
+
+.icon span {
+    color: #f8a0a0;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.col-2 {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: #CDE990;
+
+}
+
+.experience_left {
+    background: url('code.jpg');
+    background-size: cover;
+    /*Resim odaklıyor*/
+    background-position: top left;
+    /* bilgisayara odaklanmamaızı sağlıyor resimde*/
+}
+
+.experience_right {
+    padding: 30px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.experience_right h3 {
+    color: #ec9999;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+
+}
+
+.experience_right a {
+    background-color: #f8a0a0;
+    color: #fff;
+    padding: 6px 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+
+
+
+}
+
+.experience_right a:hover {
+    background-color: #fff;
+    color: #f8a0a0;
+    padding: 6px 15px;
+    border: 1px solid #ec9999;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.experience_right p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
